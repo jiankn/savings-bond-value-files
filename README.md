@@ -8,11 +8,13 @@ The [Savings Bond Calculator](https://savingsbondcalculator.org/) provides the b
 
 Requires Node.js 22.12 or newer.
 
+Install the tested release archive:
+
 ```sh
-npm install savings-bond-value-files
+npm install https://github.com/jiankn/savings-bond-value-files/releases/download/v0.1.0/savings-bond-value-files-0.1.0.tgz
 ```
 
-Before registry publication, or for an audited source checkout:
+Or run the CLI directly from a source checkout:
 
 ```sh
 git clone https://github.com/jiankn/savings-bond-value-files.git
