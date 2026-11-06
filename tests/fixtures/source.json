@@ -1,0 +1,7 @@
+{
+  "sourceUrl": "https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/sb_value?filter=redemp_period%3Aeq%3A2023-05&page%5Bsize%5D=1000&sort=src_line_nbr",
+  "retrievedAt": "2026-11-06T17:10:27.613Z",
+  "verifiedOn": "2026-11-07",
+  "sha256": "7c65a68b9c0d2ad9975c242c85afbfbb70d94bca73969e5c7be8d54e949de9cc",
+  "rows": 114
+}

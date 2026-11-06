@@ -1,0 +1,22 @@
+{
+  "name": "savings-bond-value-files",
+  "version": "0.1.0",
+  "description": "Read U.S. Treasury savings bond value files as integer-cent JSON or CSV.",
+  "type": "module",
+  "exports": { ".": { "types": "./src/index.d.ts", "default": "./src/index.mjs" } },
+  "bin": { "savings-bond-values": "./bin/cli.mjs" },
+  "files": ["src", "bin", "examples", "CHANGELOG.md"],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/index.mjs && node --check bin/cli.mjs",
+    "prepublishOnly": "npm run check && npm test"
+  },
+  "engines": { "node": ">=22.12" },
+  "license": "MIT",
+  "author": "Savings Bond Calculator",
+  "homepage": "https://savingsbondcalculator.org/",
+  "repository": { "type": "git", "url": "git+https://github.com/jiankn/savings-bond-value-files.git" },
+  "bugs": { "url": "https://github.com/jiankn/savings-bond-value-files/issues" },
+  "keywords": ["treasury", "savings-bonds", "fiscal-data", "csv", "integer-cents"],
+  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" }
+}
